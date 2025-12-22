@@ -4,9 +4,9 @@
 
 class Display {
   private:
-    Game game;
+    Game& game;
 
   public:
-    Display(Game game);
+    Display(Game& gameEngine);
     void run();
-}
+};
