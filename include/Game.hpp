@@ -15,6 +15,6 @@ class Game {
     Game ();
 
     void init();
-    void loop();
+    void step();
     void run();
 };

@@ -33,7 +33,7 @@ void Game::init() {
   }
 }
 
-void Game::loop() {
+void Game::step() {
   for (auto& player : this->players) {
     clear_screen();
     player.show_menu(this->chart);
@@ -42,6 +42,6 @@ void Game::loop() {
 
 void Game::run() {
   while (true) {
-    this->loop();
+    this->step();
   }
 }
