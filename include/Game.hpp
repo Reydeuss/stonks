@@ -14,7 +14,7 @@ class Game {
   public:
     Game ();
 
-    void init();
+    void init(int player_num, std::vector<Player>& players);
     void step();
     void run();
 };
