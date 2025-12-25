@@ -13,7 +13,7 @@ Game::Game () {
   this->chart = get_default_stocks();
 }
 
-void Game::init(int player_num, std::vector& players) {
+void Game::init(int player_num, std::vector<Player>& players) {
   this->player_num = player_num;
   this->players = players.copy();
 }
